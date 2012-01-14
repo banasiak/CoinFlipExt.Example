@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *========================================================================
+ * arrays.xml
+ * Jan 14, 2012 3:37:07 PM | variable
+ * Copyright (c) 2012 Richard Banasiak
+ *========================================================================
+-->
+<resources>  
+    <string-array name="coins">
+        <item>Sacagawea Dollar</item>
+        <item>Jefferson Nickel</item>
+    </string-array>
+    <string-array name="coins_values">
+        <item>dollar</item>
+        <item>nickel</item>
+    </string-array>
+</resources>

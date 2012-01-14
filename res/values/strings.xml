@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *========================================================================
+ * strings.xml
+ * Jan 14, 2012 3:37:07 PM | variable
+ * Copyright (c) 2012 Richard Banasiak
+ *========================================================================
+-->
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Coin Flip Example Add-on</string>
+</resources>
