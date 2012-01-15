@@ -12,7 +12,7 @@
         <item>Jefferson Nickel</item>
     </string-array>
     <string-array name="coins_values">
-        <item>dollar</item>
-        <item>nickel</item>
+        <item>a21e21791b7443aea8ef138856f628f0</item>
+        <item>c3288b8d0a6f452ca8302163b8384723</item>
     </string-array>
 </resources>

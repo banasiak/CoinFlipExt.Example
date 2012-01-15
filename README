@@ -29,6 +29,10 @@ How to create your own add-on coin package for Simple Coin Flip 5.0+
    b. If several coins share a common image, such as "edge.png" an XML bitmap 
       reference can be used to save space instead of including duplicate images.
 
-5. Finally, your package should be named with "coinflipext" somewhere in the namespace.
+5. Your package should be named with "coinflipext" somewhere in the namespace.
    a. For example: com.banasiak.coinflipext.example
                    com.robotsidekick.android.coinflipext.australia
+
+6. Finally, please be sure to test your package, particularly before publishing
+   to the Android Market.  If you would like my help/blessing/whatever, feel 
+   free to send me an e-mail, I'll be glad to help.
