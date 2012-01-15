@@ -2,14 +2,14 @@
 <!--
  *========================================================================
  * AndroidManifest.xml
- * Jan 14, 2012 3:35:01 PM | variable
+ * Jan 15, 2012 11:27:18 AM | variable
  * Copyright (c) 2012 Richard Banasiak
  *========================================================================
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="com.banasiak.coinflipext.example"
-      android:versionCode="2"
-      android:versionName="1.1"
+      android:versionCode="3"
+      android:versionName="1.2"
       android:installLocation="auto">
     <uses-sdk android:minSdkVersion="3"/>
     <application 
