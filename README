@@ -1,9 +1,34 @@
 /*
  *========================================================================
  * README
- * Jan 14, 2012 11:41:02 AM | variable
+ * Jan 15, 2012 11:27:18 AM | variable
  * Copyright (c) 2012 Richard Banasiak
  * http://www.banasiak.com
  *========================================================================
  */
  
+How to create your own add-on coin package for Simple Coin Flip 5.0+
+
+1. Checkout this open-source code to use as a template.
+
+2. Add your coins to the res/values/arrays.xml file.
+   a. The first array contains the descriptive name that is displayed to the user.
+   b. The second array contains the unique prefix associated with this coin.
+      i. Although not required, a UUID prefix is preferred, as to not collide
+         with other third-party add-in coin packages.
+
+3. You can add as many coins as you like to this package, following these guidelines:
+   a. Each coin requires a "heads", "tails", and "edge" image.
+   b. Each coin should be provided in both a HDPI and MDPI resolution.
+      i.  HDPI: 390x390 px - 96 dpi - 32-bit PNG
+      ii. MDPI: 250x250 px - 96 dpi - 32-bit PNG
+   c. The area around the coin image should be transparent.
+
+4. The coin images should be named using the following format:
+   a. UUID_heads.png | UUID_tails.png | UUID_edge.png
+   b. If several coins share a common image, such as "edge.png" an XML bitmap 
+      reference can be used to save space instead of including duplicate images.
+
+5. Finally, your package should be named with "coinflipext" somewhere in the namespace.
+   a. For example: com.banasiak.coinflipext.example
+                   com.robotsidekick.android.coinflipext.australia
